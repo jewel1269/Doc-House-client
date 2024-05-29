@@ -1,0 +1,23 @@
+.carousel-container {
+  height: 750px;
+}
+
+.carousel .slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+}
+
+.carousel-image {
+  height: 100%;
+  width: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.banner-site {
+  position: relative;
+  bottom: 650px;
+  text-align: start;
+  margin-left: 150px;
+}
